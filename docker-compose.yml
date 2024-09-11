@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  server:
+    container_name: docker-puppeteer
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: jdesva/docker-puppeteer
